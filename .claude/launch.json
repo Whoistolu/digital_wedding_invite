@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "rails-server",
+      "runtimeExecutable": "/Users/ajisetoluwase/.rvm/wrappers/ruby-3.2.4/bundle",
+      "runtimeArgs": ["exec", "rails", "server", "-p", "3000"],
+      "port": 3000
+    }
+  ]
+}
