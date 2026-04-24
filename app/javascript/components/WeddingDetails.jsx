@@ -115,7 +115,7 @@ export default function WeddingDetails({ guestName }) {
             <span className="divider-amp">&amp;</span>
             <span className="divider-line" />
           </div>
-          <h1 className="couple-name">Ose</h1>
+          <h1 className="couple-name">Oise</h1>
         </motion.div>
 
         {/* Invitation text */}

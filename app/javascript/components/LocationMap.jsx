@@ -101,7 +101,7 @@ export default function LocationMap() {
             </svg>
             <div className="rule-line" />
           </div>
-          <p className="footer-couple">Tamani &amp; Ose</p>
+          <p className="footer-couple">Tamani &amp; Oise</p>
           <p className="footer-date">20 · 06 · 2026</p>
           <p className="footer-quote">"And I am my beloved's, and my beloved is mine."</p>
           <p className="footer-book">— Song of Solomon 6:3</p>

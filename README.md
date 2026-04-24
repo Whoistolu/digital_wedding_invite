@@ -1,4 +1,4 @@
-# Tamani & Ose — Digital Wedding Invitation
+# Tamani & Oise — Digital Wedding Invitation
 
 A fully interactive digital wedding invitation built with **Ruby on Rails 8** and **React 19**. Guests receive an animated wax-sealed envelope that they click open to reveal the full invitation — complete with a love story timeline, photo gallery, event schedule, venue map, RSVP form, and an admin dashboard.
 
