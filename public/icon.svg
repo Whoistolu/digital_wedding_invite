@@ -1,3 +1,43 @@
-<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="256" cy="256" r="256" fill="red"/>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ringGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8c878"/>
+      <stop offset="50%" stop-color="#c9a84c"/>
+      <stop offset="100%" stop-color="#8a6f2a"/>
+    </linearGradient>
+    <radialGradient id="diamondShine" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#f5f1e6"/>
+      <stop offset="100%" stop-color="#c9a84c"/>
+    </radialGradient>
+    <clipPath id="rightRingClip">
+      <circle cx="316" cy="290" r="118"/>
+    </clipPath>
+  </defs>
+
+  <!-- Tab-friendly background plate -->
+  <rect width="512" height="512" rx="96" fill="#2a1f17"/>
+
+  <!-- Left ring (drawn first, sits behind at the overlap) -->
+  <circle cx="196" cy="290" r="118" fill="none" stroke="url(#ringGold)" stroke-width="34"/>
+
+  <!-- Right ring -->
+  <circle cx="316" cy="290" r="118" fill="none" stroke="url(#ringGold)" stroke-width="34"/>
+
+  <!-- Weave: redraw the small arc of the left ring that should appear ON TOP of the right ring,
+       clipped so it only shows inside the right ring's footprint. -->
+  <g clip-path="url(#rightRingClip)">
+    <circle cx="196" cy="290" r="118" fill="none" stroke="url(#ringGold)" stroke-width="34"
+            stroke-dasharray="40 1000" stroke-dashoffset="-330"/>
+  </g>
+
+  <!-- Diamond solitaire on the right ring -->
+  <g transform="translate(316 158) rotate(45)">
+    <rect x="-26" y="-26" width="52" height="52" rx="6" fill="url(#diamondShine)"
+          stroke="#c9a84c" stroke-width="4"/>
+  </g>
+
+  <!-- Sparkle highlights -->
+  <circle cx="305" cy="148" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="148" cy="248" r="3" fill="#ffffff" opacity="0.7"/>
 </svg>
