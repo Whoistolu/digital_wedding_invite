@@ -126,7 +126,7 @@ export default function AdminDashboard() {
           <h1 style={{ color: "#c9a84c", fontFamily: "'Playfair Display', serif", fontSize: "1.6rem", fontWeight: 400, marginBottom: 6 }}>
             Wedding Admin
           </h1>
-          <p style={{ color: "#a89880", fontSize: "0.85rem", marginBottom: 28 }}>Adaeze &amp; Chukwuemeka</p>
+          <p style={{ color: "#a89880", fontSize: "0.85rem", marginBottom: 28 }}>Tamani &amp; Oise</p>
           <form onSubmit={handleLogin}>
             <input
               type="password"
