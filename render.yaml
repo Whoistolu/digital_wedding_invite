@@ -38,10 +38,11 @@ services:
       - key: RAILS_SERVE_STATIC_FILES
         value: "true"
 
-      # Run Solid Queue inside the Puma process so we don't need a second
-      # worker service (saves a free-plan slot; fine for this app's load).
+      # Don't run Solid Queue — this invite enqueues no background jobs,
+      # and its default 5 worker threads exhaust the free tier's tiny DB
+      # connection pool, causing the in-Puma runner to die and crash Puma.
       - key: SOLID_QUEUE_IN_PUMA
-        value: "true"
+        value: "false"
 
       # Keep Puma's footprint small for the 512 MB free tier.
       - key: WEB_CONCURRENCY
