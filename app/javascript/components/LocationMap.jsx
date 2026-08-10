@@ -8,9 +8,16 @@ export default function LocationMap() {
   const venues = [
     {
       name: "Wedding Ceremony",
-      location: "ECWA International Conference Hall",
-      address: "1 Noad Avenue, Jos, Plateau State, Nigeria",
+      location: "ECWA Headquarters Church",
+      address: "Jos, Plateau State, Nigeria",
       time: "10:00 AM",
+      mapSrc: "https://www.openstreetmap.org/export/embed.html?bbox=8.8696%2C9.9083%2C8.9096%2C9.9483&layer=mapnik&marker=9.9283%2C8.8896",
+    },
+    {
+      name: "Reception",
+      location: "ECWA Headquarters International Conference Hall",
+      address: "Jos, Plateau State, Nigeria",
+      time: "Immediately after the ceremony",
       mapSrc: "https://www.openstreetmap.org/export/embed.html?bbox=8.8696%2C9.9083%2C8.9096%2C9.9483&layer=mapnik&marker=9.9283%2C8.8896",
     },
   ];
@@ -101,8 +108,8 @@ export default function LocationMap() {
             </svg>
             <div className="rule-line" />
           </div>
-          <p className="footer-couple">Tamani &amp; Oise</p>
-          <p className="footer-date">20 · 06 · 2026</p>
+          <p className="footer-couple">Comfort &amp; Shammah</p>
+          <p className="footer-date">17 · 10 · 2026</p>
           <p className="footer-quote">"And I am my beloved's, and my beloved is mine."</p>
           <p className="footer-book">— Song of Solomon 6:3</p>
           <p className="footer-credit">Designed with love by Tolu ♥</p>

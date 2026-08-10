@@ -109,13 +109,13 @@ export default function WeddingDetails({ guestName }) {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 0.3, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
         >
-          <h1 className="couple-name">Tamani</h1>
+          <h1 className="couple-name">Comfort</h1>
           <div className="couple-divider">
             <span className="divider-line" />
             <span className="divider-amp">&amp;</span>
             <span className="divider-line" />
           </div>
-          <h1 className="couple-name">Oise</h1>
+          <h1 className="couple-name">Shammah</h1>
         </motion.div>
 
         {/* Invitation text */}
@@ -144,7 +144,7 @@ export default function WeddingDetails({ guestName }) {
               </svg>
             </div>
             <p className="detail-label">Date</p>
-            <p className="detail-value">Saturday, June 20</p>
+            <p className="detail-value">Saturday, October 17</p>
             <p className="detail-sub">2026</p>
           </div>
 
@@ -168,8 +168,8 @@ export default function WeddingDetails({ guestName }) {
               </svg>
             </div>
             <p className="detail-label">Venue</p>
-            <p className="detail-value">ECWA International</p>
-            <p className="detail-sub">Conference Hall, Jos</p>
+            <p className="detail-value">ECWA Headquarters</p>
+            <p className="detail-sub">Church, Jos</p>
           </div>
         </motion.div>
 
@@ -181,7 +181,7 @@ export default function WeddingDetails({ guestName }) {
           transition={{ delay: 0.8, duration: 0.9 }}
         >
           <p className="countdown-title">Counting down to forever</p>
-          <CountdownTimer targetDate="2026-06-20T10:00:00" />
+          <CountdownTimer targetDate="2026-10-17T10:00:00" />
         </motion.div>
 
         {/* Bottom ornament */}

@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import EnvelopeLanding from "./EnvelopeLanding";
 import WeddingDetails from "./WeddingDetails";
+import LoveStory from "./LoveStory";
+import PhotoGallery from "./PhotoGallery";
+import EventSchedule from "./EventSchedule";
+import RSVPSection from "./RSVPSection";
 import LocationMap from "./LocationMap";
 import FloatingPetals from "./FloatingPetals";
 import MusicToggle from "./MusicToggle";
@@ -24,6 +28,10 @@ export default function App() {
       ) : (
         <main className="invitation-content">
           <WeddingDetails guestName={guestName} />
+          <LoveStory />
+          <PhotoGallery />
+          <EventSchedule />
+          <RSVPSection />
           <LocationMap />
         </main>
       )}

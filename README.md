@@ -1,4 +1,4 @@
-# Tamani & Oise — Digital Wedding Invitation
+# Comfort & Shammah — Digital Wedding Invitation
 
 A fully interactive digital wedding invitation built with **Ruby on Rails 8** and **React 19**. Guests receive an animated wax-sealed envelope that they click open to reveal the full invitation — complete with a love story timeline, photo gallery, event schedule, venue map, RSVP form, and an admin dashboard.
 
@@ -19,25 +19,26 @@ A fully interactive digital wedding invitation built with **Ruby on Rails 8** an
 
 | | |
 |---|---|
-| **Bride** | Tamani Tatiana Sale |
-| **Groom** | Oisetuemeokhun Solomon Ighodalo |
-| **Date** | Saturday, June 20, 2026 |
+| **Bride** | Comfort |
+| **Groom** | Shammah |
+| **Date** | Saturday, October 17, 2026 |
 | **Time** | 10:00 AM |
-| **Venue** | ECWA International Conference Hall |
-| **Address** | 1 Noad Avenue, Jos, Plateau State, Nigeria |
-| **Colours** | Olive Green, Emerald Green & Gold |
+| **Ceremony** | ECWA Headquarters Church |
+| **Reception** | ECWA Headquarters International Conference Hall |
+| **Address** | Jos, Plateau State, Nigeria |
+| **Colours** | Olive Green, Burgundy, Champagne Gold & White |
 
 ---
 
 ## Features
 
-- **Animated wax-seal envelope** — emerald green T&O monogram seal with a pulsing glow; click to break the seal and open the envelope
+- **Animated wax-seal envelope** — olive green C&Sh monogram seal with a pulsing glow; click to break the seal and open the envelope
 - **Cinematic reveal** — envelope flap lifts, inner card peeks out, then transitions to the full invitation
 - **Wedding details** — date, time, and venue cards with a live countdown timer
 - **Love story timeline** — alternating milestone layout with photos
 - **Photo gallery** — 8-photo grid with lightbox viewer
 - **Event schedule** — ceremony timeline with icons
-- **Interactive venue map** — OpenStreetMap embed pinned to ECWA Conference Hall, Jos
+- **Interactive venue map** — OpenStreetMap embeds for the ceremony and reception venues in Jos
 - **RSVP form** — collects name, email, attendance, guest count, and a personal note; stores to SQLite database
 - **Music player** — background music toggle (add your MP3 to `public/audio/beautiful-things.mp3`)
 - **Guest personalisation** — append `?guest=Name` to the URL to greet guests by name

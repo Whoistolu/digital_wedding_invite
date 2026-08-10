@@ -82,8 +82,8 @@ export default function EnvelopeLanding({ onOpen, guestName }) {
                   >
                     <div className="envelope__card-inner">
                       <p className="font-playfair text-center text-champagne text-sm italic">Save the Date</p>
-                      <p className="font-playfair text-center text-gold text-lg font-semibold mt-1">T&amp;O</p>
-                      <p className="text-center text-champagne/60 text-xs mt-1">20.06.2026</p>
+                      <p className="font-playfair text-center text-gold text-lg font-semibold mt-1">C&amp;Sh</p>
+                      <p className="text-center text-champagne/60 text-xs mt-1">17.10.2026</p>
                     </div>
                   </motion.div>
                 )}
@@ -117,9 +117,9 @@ export default function EnvelopeLanding({ onOpen, guestName }) {
               <div className="wax-seal__ring" />
               {/* Seal monogram */}
               <div className="wax-seal__monogram">
-                <span>T</span>
+                <span>C</span>
                 <span className="seal-amp">&amp;</span>
-                <span>O</span>
+                <span>Sh</span>
               </div>
               {/* Seal texture overlay */}
               <div className="wax-seal__texture" />
@@ -166,7 +166,7 @@ export default function EnvelopeLanding({ onOpen, guestName }) {
         transition={{ delay: 1.2, duration: 1 }}
       >
         <span className="date-line" />
-        <span className="date-text">June 20, 2026 · Jos, Nigeria</span>
+        <span className="date-text">October 17, 2026 · Jos, Nigeria</span>
         <span className="date-line" />
       </motion.div>
     </div>
